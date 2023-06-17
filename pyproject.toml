@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "langchain-for-llm-application-development"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "langchain_for_llm_application_development"}]
+
+[tool.poetry.dependencies]
+python = "3.11.4"
+openai = "^0.27.8"
+langchain = "^0.0.202"
+python-dotenv = "^1.0.0"
+ipykernel = "^6.23.2"
+tiktoken = "^0.4.0"
+pandas = "^2.0.2"
+docarray = "^0.33.0"
+wikipedia = "^1.4.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
